@@ -1,0 +1,28 @@
+.section_interactive {
+    .section_interactive__container {
+        padding-bottom: 100px;
+        .section_interactive__imageContainer {
+            .section_interactive__image {
+                width: 100%;
+            }
+        }
+        .section_interactive__articleContainer {
+            text-align: center;
+            .section_interactive__article--title {
+                font-family: 'Josephin Sans';
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 34px;
+                line-height: 38px;
+                color: hsl(0, 0%, 41%);
+            }
+            .section_interactive__article--paragraph {
+                font-family: 'Alata';
+                font-size: 14px;
+                line-height: 22px;
+                color: hsl(0, 0%, 55%);
+                font-weight: 700;
+            }
+        }
+    }
+}

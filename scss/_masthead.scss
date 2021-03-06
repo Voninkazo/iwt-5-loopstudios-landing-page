@@ -4,14 +4,15 @@
     background-image: url(../images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: auto;
+    background-position: initial;
+    margin-bottom: 100px;
     .masthead_heading {
         font-family: 'Josephin Sans';
         font-weight: 300;
         border: 2px white solid;
         text-transform: uppercase;
-        font-size: 42px;
-        line-height: 56px;
+        font-size: 36px;
+        line-height: 42px;
         color: white;
         padding: 20px;
     }
