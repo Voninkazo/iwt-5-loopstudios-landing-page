@@ -1,8 +1,100 @@
+@font-face {
+  font-family: 'Alata';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/alata.woff2) format("woff2"), url(../fonts/alata.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Josephin Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/josephin-sans.woff2) format("woff2"), url(../fonts/josephin-sans.woff) format("woff"); }
+
 body {
   background-color: #f1adad;
-  margin: 0; }
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Alata'; }
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px; }
 
 ul {
-  list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.header_nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(-110%);
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px grey; }
+  .header_nav .nav_wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px; }
+    .header_nav .nav_wrapper .flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 30px; }
+    .header_nav .nav_wrapper .nav_container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 70px; }
+      .header_nav .nav_wrapper .nav_container .nav_list__anchor {
+        font-family: 'Josephin Sans';
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 22px;
+        color: white; }
+
+input[type="checkbox"]:checked ~ header nav {
+  top: 0;
+  left: 0;
+  transform: translateX(0); }
+
+body > header {
+  position: absolute;
+  top: auto;
+  width: 100%; }
+  body > header .header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px; }
+    body > header .header_container .header_icon {
+      cursor: pointer; }
+
+.masthead_container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(../images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto; }
+  .masthead_container .masthead_heading {
+    font-family: 'Josephin Sans';
+    font-weight: 300;
+    border: 2px white solid;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 56px;
+    color: white;
+    padding: 20px; }

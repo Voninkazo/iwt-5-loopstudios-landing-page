@@ -1,0 +1,18 @@
+.masthead_container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    .masthead_heading {
+        font-family: 'Josephin Sans';
+        font-weight: 300;
+        border: 2px white solid;
+        text-transform: uppercase;
+        font-size: 42px;
+        line-height: 56px;
+        color: white;
+        padding: 20px;
+    }
+}
