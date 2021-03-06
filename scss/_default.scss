@@ -18,3 +18,12 @@ ul {
 a {
     @include reset-anchor;
 }
+
+@media(min-width: 1114px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 1114px;
+        margin: auto;
+    }
+}

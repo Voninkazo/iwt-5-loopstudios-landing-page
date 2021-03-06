@@ -26,3 +26,24 @@
         }
     }
 }
+
+@media(min-width: 1114px) {
+    .section_interactive {
+        .section_interactive__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .section_interactive__imageContainer {
+                z-index: -1;
+            }
+            .section_interactive__articleContainer {
+                max-width: 420px;
+                text-align: start;
+                padding: 30px 40px;
+                background-color: white;
+                transform: translateX(-120px) translateY(158px);
+                z-index: 2;
+            }
+        }
+    }
+}

@@ -44,3 +44,26 @@ input[type="checkbox"]:checked~header nav {
     left: 0;
     transform: translateX(0);
 }
+
+@media(min-width: 1114px) {
+    .header_nav {
+        position: static;
+        transition: none;
+        transform: none;
+        box-shadow: none;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: none;
+        .nav_wrapper {
+            padding: 0;
+            .nav_container {
+                flex-direction: row;
+                padding: 0;
+            }
+            .flex {
+                display: none;
+            }
+        }
+    }
+}

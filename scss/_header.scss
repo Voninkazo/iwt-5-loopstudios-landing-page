@@ -13,3 +13,11 @@ body>header {
         }
     }
 }
+
+@media(min-width: 1114px) {
+    .header_container {
+        label {
+            display: none;
+        }
+    }
+}
