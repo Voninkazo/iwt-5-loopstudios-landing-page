@@ -59,7 +59,11 @@ input[type="checkbox"]:checked~header nav {
             padding: 0;
             .nav_container {
                 flex-direction: row;
+                gap: 20px;
                 padding: 0;
+                .nav_list__anchor {
+                    text-transform: capitalize;
+                }
             }
             .flex {
                 display: none;
