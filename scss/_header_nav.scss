@@ -1,3 +1,4 @@
+@import './variables';
 input[type="checkbox"] {
     display: none;
 }
@@ -45,7 +46,7 @@ input[type="checkbox"]:checked~header nav {
     transform: translateX(0);
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $desktop-break-point) {
     .header_nav {
         position: static;
         transition: none;

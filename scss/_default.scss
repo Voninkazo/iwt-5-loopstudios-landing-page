@@ -19,7 +19,7 @@ a {
     @include reset-anchor;
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $desktop-break-point) {
     .container {
         padding-left: 0;
         padding-right: 0;

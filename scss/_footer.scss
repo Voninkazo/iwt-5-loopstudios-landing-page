@@ -34,11 +34,9 @@ body>footer {
     }
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $desktop-break-point) {
     body>footer {
         .footer_container {
-            // display: flex;
-            // flex-direction: row;
             text-align: start;
             .footer_nav__container {
                 flex-direction: row;

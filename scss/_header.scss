@@ -1,3 +1,4 @@
+@import './variables';
 body>header {
     position: absolute;
     top: auto;
@@ -14,7 +15,7 @@ body>header {
     }
 }
 
-@media(min-width: 1114px) {
+@media(min-width: $desktop-break-point) {
     .header_container {
         label {
             display: none;
